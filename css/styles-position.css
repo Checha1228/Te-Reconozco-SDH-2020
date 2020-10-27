@@ -17,7 +17,7 @@
 	}
 
 	.button--dot-info.palace {
-		bottom: 120px;
+		bottom: 60px;
 		left: 580px;
 	}
 	.button--dot-info.palace:hover > .content--detail-info {
@@ -29,6 +29,71 @@
     	top: 20px;
 	}
 	.button--dot-info.maloka:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.heroes {
+		right: 120px;
+    	top: 210px;
+	}
+	.button--dot-info.heroes:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.stadium {
+		right: 450px;
+    	top: 70px;
+	}
+	.button--dot-info.stadium:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.cade {
+		left: 200px;
+    	top: 230px;
+	}
+	.button--dot-info.cade:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.americas {
+		left: 450px;
+    	top: 200px;
+	}
+	.button--dot-info.americas:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	/*Oficina*/
+	.button--dot-info.subdireccion {
+		bottom: 220px;
+		left: 120px;
+	}
+	.button--dot-info.subdireccion:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.cooperacion {
+		bottom: 200px;
+		right: 410px;
+	}
+	.button--dot-info.cooperacion:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.presentacion {
+		bottom: 60px;
+		left: 580px;
+	}
+	.button--dot-info.presentacion:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.investigacion {
+		right: 180px;
+    	top: 20px;
+	}
+	.button--dot-info.investigacion:hover > .content--detail-info {
 		opacity: 1;
 	}
 
