@@ -400,5 +400,79 @@ ul.submenu--category {
 		width: 90%;
 	}
 
+	.content--img-bg.computador {
+		background: url('../images/planetary/img--back-computador.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+	.content--detail-dit	{
+		color: var(--color-blue);
+		left: 34%;
+		position: absolute;
+		text-align: center;
+		top: 104px;
+		transform: skew(4deg,0deg);
+		width: 351px;
+	}
+
+	.content--detail-dit a {
+		background: var(--color-blue);
+		border-radius: 100px;
+		color: var(--color-white);
+		display: block;
+		margin: 12px auto 0;
+		padding: 6px;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.content--detail-dit a:hover {
+		background: transparent;
+		color: var(--color-blue);
+	}
+
+	.content--default-category.only-text {
+		max-width: 60%;
+		text-align: center;
+	}
+
+	.title--default-category {
+		color: var(--color-white);
+		font-size: 2rem;
+		line-height: 2rem;
+		margin: 32px auto 20px;
+		width: 60%;
+	}
+
+	.text--default-category {
+		color: var(--color-dark);
+		font-weight: 300;	
+	}
+
+	.content--laptops-btn {
+		display: flex;
+		margin-top: 20px;
+	}
+
+	.laptop--btn-l {
+		background: url('../images/planetary/img--laptop-DIT.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		height: 400px;
+
+		width: 400px;
+	}
+	.laptop--btn-r {
+		background: url('../images/planetary/img--laptop-DIT-r.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		height: 400px;
+		
+		width: 400px;
+	}
 }
  

@@ -171,5 +171,20 @@
 		top: 26px;
 	}
 
+	.button--dot-info.laptop-l {
+		left: 90px;
+		top: 246px;
+	}
+	.button--dot-info.laptop-l:hover > .content--detail-info {
+		opacity: 1;
+	}
+	.button--dot-info.laptop-r {
+		right: 200px;
+		top: 246px;
+	}
+	.button--dot-info.laptop-r:hover > .content--detail-info {
+		opacity: 1;
+	}
+
 
 }
