@@ -18,6 +18,13 @@
 	position: relative;
 }
 
+html, 
+body {
+	background: #badbe6;
+    min-height: 100% !important;
+    height: 100%;
+}
+
 header {
 	background: var(--color-white);
 	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
@@ -40,7 +47,7 @@ header {
 section {
 	box-sizing: border-box;
 	padding-top: 96px;
-	height: 100vh;
+	min-height: 100%;
 }
 
 article {
@@ -72,6 +79,12 @@ footer {
 
 ul {
 	list-style: none;
+}
+
+.button--dot-info {
+	cursor: pointer;
+	position: absolute;
+	z-index: 100;
 }
 
 /*Header*/
@@ -122,6 +135,41 @@ ul {
 	margin: 0 0 8px;
 }
 
+.content--submenu-category {
+	background-color: transparent;
+	height: auto;
+	padding-bottom: 20px;
+	padding-top: 80px;
+}
+
+.content--submenu-category div {
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 0 0 6px 6px;
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 12px;
+	width: 90%;
+}
+
+ul.submenu--category {
+	display: flex;
+	justify-content: center;
+}
+
+.submenu--category-item {
+	margin-right: 20px;
+}
+
+.submenu--category-item a {
+	color: var(--color-dark);
+	font-size: 0.8rem;
+	font-weight: 300;
+}
+
+.submenu--category-item a:hover {
+	color: var(--color-silver);	
+}
+
 /*All CSS*/
 .content--logo-challenge {
 	width: 100px;
@@ -129,6 +177,43 @@ ul {
 
 .menu--header {
 	display: none;
+}
+
+.content--default-section.category {
+	padding: 0;
+}
+
+.content--default-category {
+	margin-top: 0;
+}
+
+.content--text-welcome {
+	left: 0;
+	position: absolute;
+	top: 20px;
+	z-index: 100;
+	width: 400px;
+}
+.content--text-welcome.category {
+	align-items: center;
+	display: flex;
+}
+
+.title--welcome {
+	color: var(--color-white);
+	font-size: 2.4rem;
+	margin-bottom: 12px;
+}
+
+.title--category {
+	color: var(--color-white);
+	font-size: 1.4rem;
+	margin-bottom: 12px;
+}
+
+.text-welcome {
+	color: var(--color-dark);
+	font-weight: 300;
 }
 
 .content--dot-info {
@@ -148,6 +233,10 @@ ul {
 	border-radius: 100px;
 	height: 30px;
 	width: 30px;
+}
+
+.dot--info-point:hover {
+	background: var(--color-silver);
 }
 
 .dot--info-point {
@@ -214,6 +303,58 @@ ul {
 	font-weight: 300;
 }
 
+.content--detail-info {
+	background: var(--color-white);
+	border-radius: 6px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+	margin-top: 10px;
+	opacity: 0;
+	padding: 10px 16px;
+	position: absolute;
+	transition: all 0.2s ease-in-out;
+	z-index: 100;
+}
+
+.title--detail-info {
+	color: var(--color-dark);
+	font-size: 0.9rem;
+	text-align: center;
+	width: 200px;
+}
+
+.text--detail-info {
+	color: var(--color-dark);
+	font-size: 0.9rem;
+	font-weight: 300;
+	margin-bottom: 8px;
+	width: 250px;
+}
+
+.text--detail-info a {
+	color: var(--color-blue);
+}
+
+.content--img-bg {
+	background-size: contain;
+	height: 80vh;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.animation-section {
+	animation: here 4s infinite;
+	opacity: 0;
+}
+
+.targetSection{
+	display: none;
+	padding: 0;
+}
+   
+.hide{
+	display: none;
+}
+
 /*Desktop*/
 @media screen and (min-width: 1000px) { 
 	.content--info-mobile {
@@ -228,7 +369,36 @@ ul {
 		display: flex;
 	}
 
-	section {
-		background: salmon;
+	.content--img-map {
+		background: url('../images/home/img--map-home.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		height: 80vh;
+		margin: 0 auto;
+		width: 90%;
 	}
+
+	.content--category-img {
+		margin-right: var(--small-size);
+		width: 70px;
+	}
+
+	.content--img-bg.espiral {
+		background: url('../images/oficina/img--espiral-office.png');
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.content--img-category{
+		background: url('../images/planetary/planetario.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		height: 70vh;
+		margin: 0 auto;
+		width: 90%;
+	}
+
 }
+ 

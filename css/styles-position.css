@@ -1,0 +1,175 @@
+/*Desktop*/
+@media screen and (min-width: 1000px) { 
+	.button--dot-info.secretary {
+		bottom: 220px;
+		left: 120px;
+	}
+	.button--dot-info.secretary:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.planetary {
+		bottom: 200px;
+		right: 410px;
+	}
+	.button--dot-info.planetary:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.palace {
+		bottom: 60px;
+		left: 580px;
+	}
+	.button--dot-info.palace:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.maloka {
+		right: 180px;
+    	top: 20px;
+	}
+	.button--dot-info.maloka:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.heroes {
+		right: 120px;
+    	top: 210px;
+	}
+	.button--dot-info.heroes:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.stadium {
+		right: 450px;
+    	top: 70px;
+	}
+	.button--dot-info.stadium:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.cade {
+		left: 200px;
+    	top: 230px;
+	}
+	.button--dot-info.cade:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.americas {
+		left: 450px;
+    	top: 200px;
+	}
+	.button--dot-info.americas:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	/*Oficina*/
+	.button--dot-info.point-1 {
+		bottom: 220px;
+		left: 220px;
+	}
+	.button--dot-info.point-1:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.point-2 {
+		bottom: 200px;
+		right: 410px;
+	}
+	.button--dot-info.point-2:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.point-3 {
+		bottom: 60px;
+		left: 580px;
+	}
+	.button--dot-info.point-3:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.point-4 {
+		right: 200px;
+    	top: 100px;
+	}
+	.button--dot-info.point-4:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.point-5 {
+		right: 120px;
+    	top: 210px;
+	}
+	.button--dot-info.point-5:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.point-6 {
+		right: 450px;
+    	top: 70px;
+	}
+	.button--dot-info.point-6:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.point-7 {
+		left: 200px;
+    	top: 230px;
+	}
+	.button--dot-info.point-7:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.point-8 {
+		left: 450px;
+    	top: 200px;
+	}
+	.button--dot-info.point-8:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.control {
+		right: 490px;
+		top: 92px;
+	}
+	.button--dot-info.control:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.investigacion {
+		bottom: 290px;
+		right: 380px;
+	}
+	.button--dot-info.investigacion:hover > .content--detail-info {
+		opacity: 1;
+	}
+	
+	.button--dot-info.presentacion {
+		bottom: 180px;
+		right: 510px;
+	}
+	.button--dot-info.presentacion:hover > .content--detail-info {
+		opacity: 1;
+	}
+	.button--dot-info.cooperacion {
+		bottom: 180px;
+		left: 314px;
+	}
+	.button--dot-info.cooperacion:hover > .content--detail-info {
+		opacity: 1;
+	}
+	.button--dot-info.subdirecciones {
+		left: 388px;
+		top: 92px;
+	}
+	.button--dot-info.subdirecciones:hover > .content--detail-info {
+		opacity: 1;
+	}
+	.button--dot-info.nube-floating {
+		left: 218px;
+		top: 26px;
+	}
+
+
+}
