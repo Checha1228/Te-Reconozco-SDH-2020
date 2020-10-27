@@ -65,68 +65,78 @@
 	}
 
 	/*Oficina*/
-	.button--dot-info.subdireccion {
+	.button--dot-info.point-1 {
 		bottom: 220px;
-		left: 120px;
+		left: 220px;
 	}
-	.button--dot-info.subdireccion:hover > .content--detail-info {
+	.button--dot-info.point-1:hover > .content--detail-info {
 		opacity: 1;
 	}
 
-	.button--dot-info.cooperacion {
+	.button--dot-info.point-2 {
 		bottom: 200px;
 		right: 410px;
 	}
-	.button--dot-info.cooperacion:hover > .content--detail-info {
+	.button--dot-info.point-2:hover > .content--detail-info {
 		opacity: 1;
 	}
 
-	.button--dot-info.presentacion {
+	.button--dot-info.point-3 {
 		bottom: 60px;
 		left: 580px;
 	}
-	.button--dot-info.presentacion:hover > .content--detail-info {
+	.button--dot-info.point-3:hover > .content--detail-info {
 		opacity: 1;
 	}
 
-	.button--dot-info.investigacion {
-		right: 180px;
-    	top: 20px;
+	.button--dot-info.point-4 {
+		right: 200px;
+    	top: 100px;
 	}
-	.button--dot-info.investigacion:hover > .content--detail-info {
+	.button--dot-info.point-4:hover > .content--detail-info {
 		opacity: 1;
 	}
 
-	.button--dot-info.heroes {
+	.button--dot-info.point-5 {
 		right: 120px;
     	top: 210px;
 	}
-	.button--dot-info.heroes:hover > .content--detail-info {
+	.button--dot-info.point-5:hover > .content--detail-info {
 		opacity: 1;
 	}
 
-	.button--dot-info.stadium {
+	.button--dot-info.point-6 {
 		right: 450px;
     	top: 70px;
 	}
-	.button--dot-info.stadium:hover > .content--detail-info {
+	.button--dot-info.point-6:hover > .content--detail-info {
 		opacity: 1;
 	}
 
-	.button--dot-info.cade {
+	.button--dot-info.point-7 {
 		left: 200px;
     	top: 230px;
 	}
-	.button--dot-info.cade:hover > .content--detail-info {
+	.button--dot-info.point-7:hover > .content--detail-info {
 		opacity: 1;
 	}
 
-	.button--dot-info.americas {
+	.button--dot-info.point-8 {
 		left: 450px;
     	top: 200px;
 	}
-	.button--dot-info.americas:hover > .content--detail-info {
+	.button--dot-info.point-8:hover > .content--detail-info {
 		opacity: 1;
 	}
+
+	.button--dot-info.control {
+		right: 350px;
+		top: 70px;
+	}
+	.button--dot-info.control:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+
 
 }

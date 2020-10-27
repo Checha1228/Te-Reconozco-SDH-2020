@@ -20,6 +20,7 @@
 
 html, 
 body {
+	background: #badbe6;
     min-height: 100% !important;
     height: 100%;
 }
@@ -178,11 +179,11 @@ ul.submenu--category {
 	display: none;
 }
 
-.content--default-section.planetary {
+.content--default-section.category {
 	padding: 0;
 }
 
-.content--default-planetary {
+.content--default-category {
 	margin-top: 0;
 }
 
@@ -321,11 +322,37 @@ ul.submenu--category {
 	width: 200px;
 }
 
+.text--detail-info {
+	color: var(--color-dark);
+	font-size: 0.9rem;
+	font-weight: 300;
+	margin-bottom: 8px;
+	width: 250px;
+}
+
+.text--detail-info a {
+	color: var(--color-blue);
+}
+
 .content--img-bg {
 	background-size: contain;
 	height: 80vh;
 	margin: 0 auto;
 	width: 90%;
+}
+
+.animation-section {
+	animation: here 4s infinite;
+	opacity: 0;
+}
+
+.targetSection{
+	display: none;
+	padding: 0;
+}
+   
+.hide{
+	display: none;
 }
 
 /*Desktop*/
@@ -340,12 +367,6 @@ ul.submenu--category {
 
 	.menu--header {
 		display: flex;
-	}
-
-	.content--default-section.home,
-	.content--default-section.planetary,
-	.content--submenu-category {
-		background: #badbe6;
 	}
 
 	.content--img-map {
@@ -367,6 +388,16 @@ ul.submenu--category {
 		background: url('../images/oficina/img--espiral-office.png');
 		background-repeat: no-repeat;
 		background-position: center;
+	}
+
+	.content--img-category{
+		background: url('../images/planetary/planetario.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		height: 70vh;
+		margin: 0 auto;
+		width: 90%;
 	}
 
 }
