@@ -470,6 +470,38 @@ ul.submenu--category {
 		position: relative;
 	}
 
+	.content--img-bg.americas-documental {
+		background: url('../images/americas/galeria/galeria-de-arte.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+	.content--img-bg.americas-contractual {
+		background: url('../images/americas/edificio.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+	.content--img-bg.americas-contabilidad {
+		background: url('../images/americas/contabilidad.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+	.content--img-bg.americas-dircobro {
+		background: url('../images/americas/caja-fuerte.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
 	.content--img-bg.maloka {
 		background: url('../images/maloka/Maloka.png');
 		background-position: center;
@@ -477,8 +509,8 @@ ul.submenu--category {
 		background-size: contain;
 		position: relative;
 	}
-	.content--img-bg.maloka {
-		background: url('../images/maloka/Maloka.png');
+	.content--img-bg.palace {
+		background: url('../images/palace/palacio.png');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
