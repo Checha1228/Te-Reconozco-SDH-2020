@@ -426,6 +426,31 @@ ul.submenu--category {
 		position: relative;
 	}
 
+	section.stadium {
+		background: rgba(75, 186, 122, 0.94);
+	}
+	.content--img-bg.stadium {
+		background: url('../images/stadium/estadio.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+	.content--img-bg.heroes {
+		background: url('../images/heroes/Heroes.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+	.content--text-large {
+		max-height: 320px;
+		overflow: scroll;
+		padding-right: 12px;
+	}
+
 	.content--detail-dit	{
 		color: var(--color-blue);
 		left: 33%;
