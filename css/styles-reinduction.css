@@ -291,10 +291,11 @@ ul.submenu--category {
 }
 
 .icon--help-footer {
-	background-image: url('../images/icon--exclamation-help.svg');
-	height: 20px;
+	background-image: url('../images/other-icons/sabias-que.png');
+	cursor: pointer;
+	height: 60px;
 	margin-left: 2px;
-	width: 20px;
+	width: 60px;
 }
 
 .text--help-footer {
