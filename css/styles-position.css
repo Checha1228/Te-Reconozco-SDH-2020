@@ -331,5 +331,12 @@
 	.button--dot-info.square-13:hover > .content--detail-info {
 		opacity: 1;
 	}
+	.button--dot-info.square-14 {
+		right: 180px;
+		top: 230px;
+	}
+	.button--dot-info.square-14:hover > .content--detail-info {
+		opacity: 1;
+	}
 
 }
