@@ -186,5 +186,58 @@
 		opacity: 1;
 	}
 
+	.button--dot-info.point-9 {
+		left: 435px;
+		top: 84px;
+	}
+	.button--dot-info.point-9:hover > .content--detail-info {
+		opacity: 1;
+	}
+	.button--dot-info.point-10 {
+		left: 330px;
+		top: 200px;
+	}
+	.button--dot-info.point-10:hover > .content--detail-info {
+		opacity: 1;
+	}
+	.button--dot-info.point-11 {
+		left: 435px;
+		top: 206px;
+	}
+	.button--dot-info.point-11:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.point-12 {
+		right: 220px;
+    	top: 210px;
+	}
+	.button--dot-info.point-12:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.point-13 {
+		bottom: 160px;
+		left: 580px;
+	}
+	.button--dot-info.point-13:hover > .content--detail-info {
+		opacity: 1;
+	}
+
+	.button--dot-info.point-14 {
+		top: 220px;
+		left: 220px;
+	}
+	.button--dot-info.point-14:hover > .content--detail-info {
+		opacity: 14;
+	}
+
+	.button--dot-info.point-15 {
+		right: 600px;
+    	top: 100px;
+	}
+	.button--dot-info.point-15:hover > .content--detail-info {
+		opacity: 1;
+	}
 
 }
