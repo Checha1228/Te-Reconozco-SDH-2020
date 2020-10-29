@@ -18,7 +18,7 @@
 	position: relative;
 }
 
-html, 
+html,
 body {
 	background: #badbe6;
     min-height: 100% !important;
@@ -167,7 +167,7 @@ ul.submenu--category {
 }
 
 .submenu--category-item a:hover {
-	color: var(--color-silver);	
+	color: var(--color-silver);
 }
 
 /*All CSS*/
@@ -352,17 +352,17 @@ ul.submenu--category {
 	display: none;
 	padding: 0;
 }
-   
+
 .hide{
 	display: none;
 }
 
 /*Desktop*/
-@media screen and (min-width: 1000px) { 
+@media screen and (min-width: 1000px) {
 	.content--info-mobile {
 		display: none;
 	}
-	
+
 	footer {
 		display: block;
 	}
@@ -445,6 +445,47 @@ ul.submenu--category {
 		position: relative;
 	}
 
+	.content--img-bg.cade {
+		background: url('../images/cade/Cade.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+	.content--img-bg.library {
+		background: url('../images/heroes/Heroes.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+
+	.content--img-bg.americas {
+		background: url('../images/americas/Americas.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+	.content--img-bg.maloka {
+		background: url('../images/maloka/Maloka.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+	.content--img-bg.maloka {
+		background: url('../images/maloka/Maloka.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		position: relative;
+	}
+
+
 	.content--text-large {
 		max-height: 320px;
 		overflow: scroll;
@@ -500,7 +541,7 @@ ul.submenu--category {
 
 	.text--default-category {
 		color: var(--color-dark);
-		font-weight: 300;	
+		font-weight: 300;
 	}
 
 	.text--default-category.small  {
@@ -537,4 +578,3 @@ ul.submenu--category {
 		padding: 6px 16px;
 	}
 }
- 
