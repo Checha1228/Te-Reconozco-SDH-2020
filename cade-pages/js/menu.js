@@ -12,7 +12,7 @@ const menu=`<div>
         <a class="button--item" href="./impuesto-ica.html">Impuesto ICA</a>
     </li>
     <li class="submenu--category-item">
-        <a class="button--item" href="./rst">El régimen simple de tributación (RST)</a>
+        <a class="button--item" href="./rst.html">El régimen simple de tributación (RST)</a>
     </li>
     <li class="submenu--category-item">
         <a class="button--item" href="./entidadesrecaudo.html">Entidades financieras con permisos para recaudar</a>
