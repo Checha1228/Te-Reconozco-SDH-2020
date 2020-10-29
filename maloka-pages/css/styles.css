@@ -1,0 +1,11 @@
+.content--img-map {
+    background: url('../../images/library/Biblioteca.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 70vh;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* .content--submenu-category {display: none; } */
