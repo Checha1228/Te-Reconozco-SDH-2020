@@ -6,7 +6,7 @@ const header=`<nav class="header--challenge">
     <li class="menu--header-items">
         <a href="../index.html">Home</a>
     </li>
-    <li class="menu--header-items">
+    <li class="menu--header-items hiddencat">
         <a href="">Categorías</a>
         <ul class="submenu--header">
             <li class="submenu--header-items">

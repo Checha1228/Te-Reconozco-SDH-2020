@@ -10,12 +10,12 @@ const menu=`<div>
 		<a class="button--item" href="./3.html">Gravedad de faltas y sanciones</a>
 	</li>
 	<li class="submenu--category-item">
-		<a class="button--item" href="./4.html">Prohibiciones</a>
+		<a class="button--item" href="./4.html">Deberes y derechos de los funcionarios</a>
 	</li>
 	<li class="submenu--category-item">
-		<a class="button--item" href="./5.html">Inhabilidades,incompatbilidades, conflictos de intereses e impedimentos</a>
+		<a class="button--item" href="./5.html">Prohibiciones de los funcionarios</a>
 	</li>
-	
+
 
 </ul>
 </div>`;
@@ -25,4 +25,3 @@ document.addEventListener('DOMContentLoaded',async function() {
     document.getElementById("sub-menu").innerHTML=menu;
 
 })
-
