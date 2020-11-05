@@ -164,6 +164,8 @@ ul.submenu--category {
 .submenu--category-item a {
 	color: var(--color-dark);
 	font-size: 0.8rem;
+	display: block;
+	line-height: 0.9rem;
 	font-weight: 300;
 }
 
@@ -341,7 +343,6 @@ ul.submenu--category {
 	font-weight: 300;
 	margin-bottom: 8px;
 	text-align: justify;
-	width: 250px;
 }
 
 .text--detail-info a {
@@ -367,6 +368,51 @@ ul.submenu--category {
 
 .hide{
 	display: none;
+}
+
+.title--detail-info-new {
+	color: #0a6eac;
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 1.2rem;
+	text-transform: uppercase;	
+}
+
+.text--intro-info {
+	color: gray;
+	font-size: 0.8rem;
+	font-weight: 300;
+	line-height: 0.8rem;
+	margin: 6px 0 10px;
+}
+
+.text--intro-info.sub--intro {
+	font-size: 0.8rem;
+	line-height: 0.8rem;
+	margin: 0 0 4px;
+	width: 100%;
+}
+
+.subtitle--detail-text {
+	border-bottom: 1px solid #ccc;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 8px 0;
+	padding: 6px 0;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.number--text {
+	color: #0a6eac;
+	font-weight: bold;
+}
+
+.text--detail-info.table-text {
+	font-size: 0.8rem;
+	font-weight: 300;
+	text-align: center;
 }
 
 /*Desktop*/
@@ -693,7 +739,7 @@ ul.submenu--category {
 
 	article.content--text-img {
 		display: grid;
-		grid-template-columns: 0.8fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		grid-gap: 16px;
 	}
 }
