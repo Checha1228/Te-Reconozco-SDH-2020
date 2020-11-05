@@ -4,7 +4,7 @@ const header=`<nav class="header--challenge">
 </div>
 <ul class="menu--header">
     <li class="menu--header-items">
-        <a href="../index.html">Home</a>
+        <a href="../index.html">Inicio</a>
     </li>
     <li class="menu--header-items hiddencat">
         <a href="">Categorías</a>
